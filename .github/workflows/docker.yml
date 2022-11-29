@@ -10,9 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout backend code
-      uses: Bhacaz/checkout-files@v2
-      with:
-        files: backend/backend.conf.temp backend/dockerfile backend/start.sh
+      uses: actions/checkout@v3
 
     - name: Login to DockerHub
       uses: docker/login-action@v2
