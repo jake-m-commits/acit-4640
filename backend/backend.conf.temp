@@ -1,6 +1,0 @@
-[database]
-MYSQL_HOST = ${MYSQL_HOST}
-MYSQL_PORT = 3306
-MYSQL_DB = backend
-MYSQL_USER = backend
-MYSQL_PASSWORD = secure
