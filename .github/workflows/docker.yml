@@ -11,6 +11,8 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
+      with:
+        dir: ./backend
 
     - name: Login to DockerHub
       uses: docker/login-action@v2
